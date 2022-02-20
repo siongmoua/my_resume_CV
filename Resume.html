@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siong's Webpage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet"> -->
+
+ 
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+
+    <div class="topnav">
+        <nav class = "manueNav">
+            <a class="active" href="index.html">Home</a>
+            <a style="background-color: #ad3333;" href="Resume.html">My Resume</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Research.html">Research</a>
+            <a href="Contact_me.html">Contact</a>
+        </nav>
+    </div>
+
+     
+    <!-- ===================================================================================================================================== -->
+
+    <div class="summary">
+        <table>
+            <tr>
+                <td>
+                    <img src="my_image.png" alt="Siong Profile Picture" width="200" height="200"> &nbsp&nbsp&nbsp&nbsp
+                </td>
+                <td>
+                    <h1 style="color: #8E0505;">Siong Moua</h1>
+
+                    <p>Electrical engineer experienced in embedded system
+                        design, circuit design, and design and testing.
+                        <br>Strong hardware and software trouble-shooting skills.
+                        <br>Good programming skills in C/C++/C#, Java, HTML, CSS, Python, Assembly, and Verilog.
+                    </p>
+                    <!-- <button id = "ContactButton" href="Contact_me.html">You Can Contact Me Here</button> -->
+
+                    <a href='Contact_me.html'><button id = "ContactButton" >You Can Contact Me Here</button></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ===================================================================================================================================== -->
+
+    <div class="education_div">
+        <h2> Education</h2>
+
+        <h2>Saint Cloud State University </h2>
+            <p>
+                <p>Master of Science, Electrical Engineering &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <em>Anticipated May 2023</em> </p>
+                <p>Bachelor of Science, Electrical Engineering &nbsp&nbsp&nbsp&nbsp  <em>Graduated May 2021</em> </p>
+            </p>
+
+    </div>
+
+    <!-- ===================================================================================================================================== -->
+
+    <div class="skill_div">
+        <h2>Skills</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                                <li>C, C++, C#, Java, HTML, CSS, Verilog, Assembly, HTML, CSS, Python &nbsp&nbsp</li>
+                        </td>
+
+                        <td>
+                                <li>MATLAB, Simulink, Filter Designer Tool</li>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                                <li>Micro-controller(CCS C, STM32 Cube, MPLAB, Keil) &nbsp&nbsp</li>
+                        </td>
+
+                        <td>
+                                <li>Microsoft Office, Excel, PowerPoint</li>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                                <li>Circuit Design, Cadence LTSpice &nbsp&nbsp</li>
+                        </td>
+
+                        <td>
+                                <li>Power supply, Oscilloscope Function generator, Multi-meter</li>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                                <li>Android Studio &nbsp&nbsp</li>
+                        </td>
+
+                        <td>
+                                <li>Visual Studio, Window Forms App, PyCharm</li>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+    </div>
+
+
+    <!-- ===================================================================================================================================== -->
+
+    <div class="project_div">
+        <h2>Projects</h2>
+
+            <strong> Real-Time Digital Filter and Harmonic Extractor,</strong> &nbsp December 2021<br>
+                <div class = "a" > &nbsp </div>
+
+                <li class="customIndent">Designed a digital oscilloscope and spectrum analyzer on the PIC24 chip using C in CCS C</li>
+                <li class="customIndent">A real time GUI application for user control was designed in Visual Studio Window Form using C#</li>
+                <li class="customIndent">Used UART for the hand-shake bi-directional communication between PIC24 and the C# GUI application</li>
+                <li class="customIndent">Implemented the DFT to plot the input signal frequency spectrum in C# using the ZedGraph library</li>
+
+                 
+                <li><a href="doc_upload\PDF_final.pdf" target="_blank"><button class = "read_more" >Click Here To Read More</button></a></li>
+
+                 
+
+                <div class = "a" > &nbsp </div>
+             <!-- ---------------------------------------------------------------------->
+            <strong> Wireless Digital Oscilloscope and Spectrum Analyzer,</strong> &nbsp October 2021<br>
+                <div class = "a" > &nbsp </div>
+
+                <li class="customIndent">Implemented a real time digital filter system using PIC24 to extract first and third harmonic of a square wave signal</li>
+                <li class="customIndent">A C# Windows Form Application is designed to display both time and frequency signal using the ZedGraph library</li>
+                <li class="customIndent">A circular buffer is used to store the sampled data which is used to convolves with the filter coefficients  </li>
+                <li class="customIndent">Controlled ADC sampling frequency using a timer for precision timing</li>
+                <li class="customIndent">Used MATLAB filter designer tool to design two fixed-point 16-bit FIR filters (LPF and BPF).</li>
+
+                <li><a href="doc_upload\PDF_midterm.pdf" target="_blank"><button class = "read_more" >Click Here To Read More</button></a></li>
+
+                 
+    </div>
+
+
+
+
+
+    <div class="work_div">
+        <h2>Work Experience</h2>
+
+        <table border="0">
+                <tr>
+                    <td>
+                        <h3>Graduate Teaching Assistant</h3>
+
+                        <p> <strong> Saint Cloud State University, Saint Cloud, Minnesota </strong>  </p>
+
+                        <ul type="disc">
+                            <li>Research and develop new labs for graduate and undergraduate level in embedded system design class</li>
+                            <li>Spend 10 hours per week helping student with embedded system design laboratory work </li>
+                            <li>Demonstrated the ability to explain technical design approach to help student complete their assigned task </li>
+                            <li>Monitor student progress and provide feedback to help student accomplish the established learning objective</li>
+                            <li><a href="doc_upload\SPI_protocol_PIC24.pdf" target="_blank"><button class = "read_more" >Click Here To Read More</button></a></li>
+                        </ul>
+                    </td>
+
+                    <td>September 2021 – January 2022</td>
+                </tr>
+        </table>
+
+
+
+        <table border="0">
+            <tr>
+                <td>
+                    <h3>Firmware Verification Technician</h3>
+                        <p> <strong>Starkey Hearing Technology, Eden Prairie, Minnesota </strong> </p>
+
+                        <ul type="disc">
+                            <li>Perform hearing aid firmware and sound quality testing </li>
+                            <li>Developed test procedures to effectively test the hearing aid to confirm the firmware design specifications</li>
+                            <li>Worked well with team members in discussing solutions to problems</li>
+                            <li>Review and update test procedures in Polarion and write Jira reports on any bugs found during testing</li>
+                        </ul>
+                </td>
+
+                <td>March 2021 – September 2021</td>
+
+            </tr>
+        </table>
+
+        <table border="0">
+            <tr>
+                <td>
+                    <h3>Smart Solar Charge Controller Research Team</h3>
+                        <p> <strong> Saint Cloud State University, Saint Cloud, Minnesota </strong> </p>
+
+                        <ul type="disc">
+                            <li>Design a solar charge controller with Wi-Fi capability based on the CC/CV  algorithm using PIC18F4550  </li>
+                            <li>Perform testing and verification of code execution to help improve system speed and performances </li>
+                            <li>Demonstrated good leadership and management skills by facilitating and organizing group meetings  </li>
+                            <li>Adapted good presentation skills by presenting technical presentation in front of other engineers </li>
+                        </ul>
+                </td>
+
+                <td>September 2020 – May 2021</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    
+
+ </body> 
